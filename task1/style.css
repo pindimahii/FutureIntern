@@ -30,6 +30,45 @@ section {
     padding: 1rem;
     margin: 2rem 0;
 }
+#testimonials {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center-align text */
+}
+
+/* Heading for testimonials section */
+#testimonials h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark grey color */
+}
+
+/* Container for individual testimonials */
+blockquote {
+    background: #fff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto; /* Margin around each testimonial */
+    max-width: 600px; /* Max width of each testimonial */
+    padding: 20px; /* Padding inside each testimonial */
+    position: relative; /* Relative positioning for pseudo-elements */
+}
+
+/* Styling for the text of the testimonial */
+blockquote p {
+    font-size: 1.2em; /* Slightly larger font size */
+    line-height: 1.5; /* Line height for better readability */
+    margin: 0; /* Remove default margin */
+    color: #666; /* Medium grey color */
+}
+
+/* Styling for the citation */
+blockquote cite {
+    color: #999; /* Light grey color */
+    display: block; /* Block display for better formatting */
+    font-size: 1em; /* Font size for citation */
+    margin-top: 10px; /* Space above citation */
+}
 
 footer {
     background-color: #f1f1f1;
