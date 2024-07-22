@@ -31,9 +31,9 @@ section {
     margin: 2rem 0;
 }
 #testimonials {
-    background-color: #f9f9f9; /* Light grey background */
-    padding: 50px 20px; /* Padding around the section */
-    text-align: center; /* Center-align text */
+    background-color: #f9f9f9; 
+    padding: 50px 20px; 
+    text-align: center; 
 }
 
 /* Heading for testimonials section */
